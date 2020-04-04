@@ -1,3 +1,12 @@
 .top-nav {
 	background-color: $blue-primary !important;
+
+	.nav-link {
+		font-family: $font-family;
+
+		&:hover {
+			color: $blue-font !important;
+			transition: 1.75s ease;
+		}
+	}
 }
