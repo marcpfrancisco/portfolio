@@ -1,8 +1,9 @@
 {
 	"name": "portfolio",
 	"version": "1.0.0",
-	"description": "My Personal Website made with React ",
+	"description": "My Personal Website made with React",
 	"main": "index.js",
+	"homepage": "https://marcpfrancisco.github.io/portfolio",
 	"scripts": {
 		"start": "webpack-dev-server --mode development --open --hot",
 		"build": "webpack --mode production",
