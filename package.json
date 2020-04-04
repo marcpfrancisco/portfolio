@@ -3,10 +3,12 @@
 	"version": "1.0.0",
 	"description": "My Personal Website made with React",
 	"main": "index.js",
+	"homepage": "https://marcpfrancisco.github.io/portfolio/",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
 	"keywords": [],

@@ -10,7 +10,7 @@ import "./App";
 export class App extends Component {
 	render() {
 		return (
-			<Router>
+			<Router basename="/">
 				<React.Fragment>
 					<NavBar />
 					<Layout>
