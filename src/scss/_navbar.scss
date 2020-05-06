@@ -1,8 +1,10 @@
 .top-nav {
 	background-color: $blue-primary !important;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.85);
+	height: 85px;
 
 	.nav-link {
-		font-family: $font-family;
+		font-family: $fira-code-retina;
 
 		&:hover {
 			color: $blue-font !important;
